@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>webexteams</id>
+    <version>3.0.10545.0</version>
+    <title>WebexTeams </title>
+    <authors>Cisco</authors>
+    <projectUrl>https://www.webex.com/downloads.html</projectUrl>
+    <tags>webexteams</tags>
+    <summary>install webexteams</summary>
+    <description>Install Webex Teams for all users</description>
+    <packageSourceUrl>http://www.webex.com/downloads/WebexTeams.msi</packageSourceUrl>
+    <licenseUrl>https://www.cisco.com/c/dam/en_us/about/doing_business/legal/docs/universal-cloud-agreement.pdf</licenseUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
